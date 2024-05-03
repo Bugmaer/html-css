@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="file:///C:/Users/Bugma/OneDrive/%C3%81rea%20de%20Trabalho/ESTUDOS/html-css/exercicios/site/projeto01.html">Executar meu primeiro mini projeto de site</a>
+<a href="https://bugmaer.github.io/html-css/exercicios/site/projeto01.html#">Executar meu primeiro mini projeto de site</a>
