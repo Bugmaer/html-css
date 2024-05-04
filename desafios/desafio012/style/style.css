@@ -47,6 +47,9 @@ header a, footer a {
     color: white;
     text-decoration: none;
 }
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
 
 section {
     padding: 10vh 0vh 10vh 30px;
