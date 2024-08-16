@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="cadastro.java" method="post"></form>
+
+    <p>
+        <label for="iest">Estado:</label>
+        <select name="estado" id="iest">
+
+            <option value="" selected>----Escolha----</option>
+            <optgroup label="Região Sudeste">
+                <option value="MG">Minas Gerais</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </optgroup>
+
+            <optgroup label="Região Sul">
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="PR">Paraná</option>
+                <option value="SC">Santa Catarina</option>
+            </optgroup>
+        </select>
+    </p>
+
+    <p>
+        <label for="iprof">Profissão:</label>
+        <input type="text" name="prof" id="iprof" list="listprof">
+        <datalist id="listprof">
+            <option value="ADM">Administrador</option>
+            <option value="DEV">Developer</option>
+            <option value="CONT">Contador</option>
+            <option value="MARC">Marceneiro</option>
+        </datalist>
+    </p>
+
+    <p>
+        <label for="imsg">Mensagem: <br> </label>
+        <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="digite aq"></textarea>
+    </p>
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+    
+</body>
+</html>
